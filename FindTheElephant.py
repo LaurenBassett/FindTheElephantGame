@@ -36,7 +36,7 @@ def main():
         #create the elephant image and make it random
         elephantX = randrange(5,490)
         elephantY= randrange(5,490)
-        pic = Image(Point(elephantX, elephantY), "cat.gif")
+        pic = Image(Point(elephantX, elephantY), "elephant.gif")
 	
         
         #if in test mode draw elephant gif
